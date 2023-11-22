@@ -1,2 +1,2 @@
 # ReduxTodo
-TeduxToolkit
+ReduxToolkit
