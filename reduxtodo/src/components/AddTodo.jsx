@@ -14,14 +14,15 @@ const AddTodo = () => {
 
   return (
     <>
-      <form onSubmit={addTodoHandler}>
+<h1 className="font-bold">Create your own Todo List</h1>     
+ <form onSubmit={addTodoHandler}>
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Write your Todo tasks...."
         ></input>
-        <button type="submit">Add</button>
+        <button type="submit" className="bg-black text-white">Add</button>
       </form>
     </>
   );

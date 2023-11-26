@@ -8,7 +8,7 @@ const Todos = () => {
   return (
     <div>
       {todos.map((todo) => (
-        <div key={todo.id}>
+        <div key={todo.id} className="font-inter">
           {todo.text}
           <button onClick={() => dispatch(removeTodo(todo.id))}>Delete</button>
         </div>
